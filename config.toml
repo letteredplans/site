@@ -1,0 +1,79 @@
+#googleAnalytics = ""
+
+# GENERAL configuration - please avoid changing
+baseURL = "https://letteredplans.github.io/"
+title = "Lettered Plans"
+theme = "book"
+languageCode = "en-ca"
+DefaultContentLanguage = "en"
+
+# Book configuration
+disablePathToLower = true
+enableGitInfo = false
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+# Multi-lingual mode config
+# There are different options to translate files
+# See https://gohugo.io/content-management/multilingual/#translation-by-filename
+# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+[languages]
+[languages.en]
+  languageName = 'English'
+  contentDir = 'content'
+  weight = 1
+
+# Menu settings
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Follow on Social Media"
+  url = "/quick-links"
+  weight = 10
+
+# Paramters
+[params]
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC = true
+  # (Optional, default none) Set the path to a logo for the book. If the logo is
+  # /static/logo.png then the path would be logo.png
+  BookLogo = '/logo/lp-small.jpeg'
+  # (Optional, default none) Set leaf bundle to render as side menu
+  # When not specified file structure and weights will be used
+  BookMenuBundle = '/menu'
+  # (Optional, default docs) Specify root page to render child pages as menu.
+  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
+  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
+  BookSection = 'docs'
+  # Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  # BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Edit path must point to root directory of repo.
+  #BookEditPath = 'edit/master/exampleSite'
+
+  # Configure the date format used on the pages
+  # In git information, in blog posts
+  BookDateFormat = 'Jan 2, 2006'
+
+  # (Optional, default true) Enables search function with flexsearch,
+  # Index is built on fly, therefore it might slowdown your website.
+  # Configuration for indexing can be adjusted in i18n folder per language.
+  BookSearch = true
+
+  # (Optional, default true) Enables comments template on pages
+  # By default partals/docs/comments.html includes Disqus template
+  # See https://gohugo.io/content-management/comments/#configure-disqus
+  # Can be overwritten by same param in page frontmatter
+  BookComments = true
+
+# Disqus
+disqusShortname = "https-letteredplans-github-io"
