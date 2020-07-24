@@ -1,8 +1,15 @@
 ---
 headless: true
 ---
-- [Docs]({{< relref "/docs/" >}})
-  - PlaceholderText
+- [Docs](/docs)
+  - **[Videos](/docs/videos)**
+  - **[Free Printables](/docs/free-printables)**
+  - [About](/docs/about)
+  - **[Support](/docs/support)**
+  - **[Shops](/docs/shops)**
+  - **[Resources](/docs/resources)**
+  - <br />
+  - [Podcast](/docs/podcast)
 <br />
-- [Blog]({{< relref "/posts" >}})
+- **[Blog](/posts)**
 <br />

@@ -1,24 +1,37 @@
 ---
 title: "Home"
 type: docs
-description: Home page.
+description: Welcome to the Lettered Plans site!
 author: "Earnest"
 date: 2020-07-22
-lastmod: 2020-07-22
-type: docs
+lastmod: 2020-07-23
 ---
 
 # Welcome!
-You've reached the Lettered Plans blog. This is still very new and being worked on. Blog posts and resources are slowly being brought over from the previous site, so in the meantime, please visit the [site here](https://letteredplans.wixsite.com/letteredplans).
+You've reached the Lettered Plans site.
 
-Thank you!
+Check out the pages on the left, and the [blog](/posts).
 
-# To Do
-* Port over blog posts
-* Port over all "doc" pages
-* Enable emoji support!
-* Enable disqus for commenting
+You can follow me on:
+- **[Instagram](https://www.instagram.com/letteredplans/)**
+- **[Youtube](https://youtube.com/c/letteredplans)**
+- **[Facebook](https://facebook.com/letteredplans)**
+- [Twitter](https://twitter.com/letteredplans)
+- **[Support](/docs/support)**
 
-# Pages ~
-- [Pages]({{< relref "/docs" >}})
-- [Blog]({{< relref "/posts" >}})
+Thank you for stopping by!
+
+## Recent posts from around the internet
+- [Latest Blog Post](/posts/2020/07/22-first-post)
+
+{{< youtube zg-etblcC1Q >}}
+
+{{< instagram B8uvOZ5pyZ_ hidecaption >}}
+
+# Pages
+- [Pages](/docs)
+- [Blog](/posts)
+
+---
+###### Site Policy and Copyright
+[Click here](/site-policy)
