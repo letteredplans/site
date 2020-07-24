@@ -8,7 +8,7 @@ type: docs
 slug: site-policy
 ---
 
-`This page was created on 2020-07-23, and last updated by Earnest on 2020-07-23.`
+`This page was created on 2020-07-23, and last updated by Earnest on 2020-07-24.`
 
 ## 1. Terms
 By accessing this Website, accessible from https://letteredplans.github.io/, you are agreeing to be bound by the site policy and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright law.​
@@ -24,7 +24,7 @@ Permission is granted to temporarily download one copy of the materials on Lette
 This will let Lettered Plans to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format.
 
 ## 2. Copyright
-All media on this website (including but not limited to audios, photos, text, and videos) belong to and are copyrighted to Lettered Plans, all rights reserved; unless specified otherwise. You must email and ask for permission before copying - [letteredplans@gmail.com](mailto:letteredplans@gmail.com). Unauthorized usage of any media without linking or crediting is strictly prohibited under copyright law.
+All media on this website (including but not limited to audios, photos, text, and videos) belong to and are copyrighted to Lettered Plans, unless specified otherwise. This website is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/). You must email and ask for permission before copying - [letteredplans@gmail.com](mailto:letteredplans@gmail.com). Unauthorized usage of any media without linking or crediting is strictly prohibited under copyright law.
 
 ## 3. Disclaimer
 All the materials on Lettered Plans’s Website are provided "as is". Lettered Plans makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Lettered Plans does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.

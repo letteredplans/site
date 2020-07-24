@@ -33,5 +33,10 @@ Thank you for stopping by!
 - [Blog](/posts)
 
 ---
+
 ###### Site Policy and Copyright
 [Click here](/site-policy)
+
+(c) Earnest Ma "Lettered Plans", 2020
+
+This website is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/).
