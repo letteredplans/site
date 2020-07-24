@@ -5,7 +5,7 @@ date: 2020-01-05
 lastmod: 2020-07-23
 author: "Earnest"
 draft: false
-tags: ["video", "a5", "flipthrough", "a5 rings", "filofax"]
+tags: ["video", "a5 rings", "filofax"]
 categories: ["Planner flipthrough"]
 slug: 05-a5-filofax-clipbook
 ---
