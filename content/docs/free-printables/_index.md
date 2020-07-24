@@ -23,3 +23,6 @@ Basically:
 If you have any further questions, [please contact me](/docs/about). If the download links are broken, please also contact me.
 
 With that, please enjoy the printables!
+
+# Update
+I'm revamping the printables I've already made, and will be uploading them as soon as they're done. Check back soon!
