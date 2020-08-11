@@ -3,7 +3,7 @@ title: "Shops"
 description:
 author: "Earnest"
 date: 2020-07-23
-lastmod: 2020-07-23
+lastmod: 2020-08-11
 type: docs
 slug: shops
 ---
