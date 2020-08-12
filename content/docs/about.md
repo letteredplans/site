@@ -26,3 +26,9 @@ The best way to contact me is through email. [letteredplans AT gmail DOT com](ma
 If there's something wrong/ a broken link on this website, please start a [Github Issue](https://github.com/letteredplans/letteredplans.github.io/issues).
 
 I also threw together a quick [Discord server](https://discord.gg/EduyGGv).
+
+---
+
+# About this site
+
+I used [Hugo](https://gohugo.io/) with the [Book theme](https://github.com/alex-shpak/hugo-book), and you're getting this using [Github Pages](https://pages.github.com/)!

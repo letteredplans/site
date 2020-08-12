@@ -4,7 +4,7 @@ type: docs
 description: Welcome to the Lettered Plans site!
 author: "Earnest"
 date: 2020-07-22
-lastmod: 2020-07-23
+lastmod: 2020-08-11
 ---
 
 # Welcome!
@@ -30,13 +30,13 @@ Thank you for stopping by!
 
 # Pages
 - [Pages](/docs)
-- [Blog](/posts)
+- [Blog Posts](/posts)
 
 ---
 
 ###### Site Policy and Copyright
 [Click here](/site-policy)
 
-(c) Earnest Ma "Lettered Plans", 2020
+(c) Earnest Ma "Lettered Plans", 2020  |  [About](/docs/about)
 
 This website is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/).
