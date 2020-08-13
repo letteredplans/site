@@ -3,7 +3,7 @@ title: "About"
 description:
 author: "Earnest"
 date: 2020-07-23
-lastmod: 2020-07-23
+lastmod: 2020-08-13
 type: docs
 slug: about
 ---
