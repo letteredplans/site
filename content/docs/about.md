@@ -3,7 +3,7 @@ title: "About"
 description:
 author: "Earnest"
 date: 2020-07-23
-lastmod: 2020-07-23
+lastmod: 2020-08-13
 type: docs
 slug: about
 ---
@@ -32,3 +32,5 @@ I also threw together a quick [Discord server](https://discord.gg/EduyGGv).
 # About this site
 
 I used [Hugo](https://gohugo.io/) with the [Book theme](https://github.com/alex-shpak/hugo-book), and you're getting this using [Github Pages](https://pages.github.com/)!
+
+## **[More details](/docs#some-details)**
