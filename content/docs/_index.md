@@ -3,7 +3,7 @@ title: "Docs"
 description: Resources List.
 author: "Earnest"
 date: 2020-07-22
-lastmod: 2020-07-23
+lastmod: 2020-08-13
 type: docs
 ---
 # You've reached the docs page!
