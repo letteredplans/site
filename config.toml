@@ -1,7 +1,7 @@
 #googleAnalytics = ""
 
 # GENERAL configuration - please avoid changing
-baseURL = "https://letteredplans.github.io/"
+baseURL = "https://lp.earnestma.xyz/"
 title = "Lettered Plans"
 theme = "book"
 languageCode = "en-ca"
