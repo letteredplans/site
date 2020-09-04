@@ -3,13 +3,13 @@ title: "About"
 description:
 author: "Earnest"
 date: 2020-07-23
-lastmod: 2020-08-13
+lastmod: 2020-09-04
 type: docs
 slug: about
 ---
 
 # About
-**Hello! I'm Earnest, the person behind Lettered Plans.** I'm currently 16 and attending high school. [This is my personal site](https://earnestma.github.io/).
+**Hello! I'm Earnest, the person behind Lettered Plans.** I'm currently 16 and attending high school. [This is my personal site](https://earnestma.xyz/).
 
 I share both my functional and memory planner spreads, bullet journal spreads, sometimes note-taking and study videos, stationery, vlogs, and more! While planning, I love listening to music, podcasts, and drinking tea.
 
