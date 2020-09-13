@@ -24,7 +24,11 @@ Thank you for stopping by!
 ## Recent posts from around the internet
 - [Latest Blog Post](/posts/2020/07/22-first-post)
 
+---
+
 {{< youtube zg-etblcC1Q >}}
+
+---
 
 {{< instagram B8uvOZ5pyZ_ hidecaption >}}
 
@@ -34,9 +38,9 @@ Thank you for stopping by!
 
 ---
 
-###### Site Policy and Copyright
-[Click here](/site-policy)
+---
 
-(c) Earnest Ma "Lettered Plans", 2020  |  [About](/docs/about)
 
-This website is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+[Site Policy](/site-policy)
+
+(c) Earnest Ma "Lettered Plans", 2020 [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) |  [About](/docs/about)
