@@ -1,4 +1,4 @@
-#googleAnalytics = ""
+googleAnalytics = "UA-177859749-1"
 
 # GENERAL configuration - please avoid changing
 baseURL = "https://lp.earnestma.xyz/"
