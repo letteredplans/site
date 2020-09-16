@@ -7,6 +7,9 @@ theme = "book"
 languageCode = "en-ca"
 DefaultContentLanguage = "en"
 
+# Theme 'auto' switches between dark and light modes based on browser/os preferences
+BookTheme = 'dark'
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = false
