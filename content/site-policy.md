@@ -3,15 +3,15 @@ title: "Site Policy"
 description:
 author: "Earnest"
 date: 2020-07-23
-lastmod: 2020-07-23
+lastmod: 2020-07-24
 type: docs
 slug: site-policy
 ---
 
-`This page was created on 2020-07-23, and last updated by Earnest on 2020-07-24.`
+`This page was created on 2020-07-23, and last updated by Earnest on 2020-09-27.`
 
 ## 1. Terms
-By accessing this Website, accessible from https://letteredplans.github.io/, you are agreeing to be bound by the site policy and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright law.​
+By accessing this Website, accessible from https://lp.earnestma.xyz/, you are agreeing to be bound by the site policy and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright law.​
 
 Permission is granted to temporarily download one copy of the materials on Lettered Plans's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
 

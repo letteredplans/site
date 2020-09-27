@@ -3,7 +3,7 @@ title: "Quick Links"
 description: Quick links to social media etc.
 author: "Earnest"
 date: 2020-07-22
-lastmod: 2020-07-23
+lastmod: 2020-09-27
 type: docs
 slug: quick-links
 ---
@@ -22,8 +22,5 @@ slug: quick-links
 ### Discord Invites
 - [Discord - Planner Chats Server](https://discord.gg/u7RT8b8)
 - [Discord - Lettered Plans Server](https://discord.gg/EduyGGv)
-
-### Misc
-- [Fitbit](https://www.fitbit.com/user/65TWLR)
 
 [Return to the main page](/)
