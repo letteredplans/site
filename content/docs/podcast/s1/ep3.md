@@ -7,6 +7,8 @@ lastmod: 2020-07-23
 type: docs
 slug: ep3
 ---
+*Archived episode*
+
 Listen on your favorite podcast app!
 
 Catching up! My 6th week of quarantine begins, planner updates and what I've been up to.

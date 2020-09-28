@@ -7,9 +7,10 @@ lastmod: 2020-07-23
 type: docs
 slug: podcast
 ---
-`Sharing my life through my planners (and sometimes mishaps too!). I can be found in most places @letteredplans :) // New episodes on the 5th and 20th!`
 
 <img src="/logo/lp-pod-small.jpg" alt="Lettered Plans Podcast Logo" style="width:100px;height:100px;">
+
+Sharing my life through my planners (and sometimes mishaps too!). I can be found in most places @letteredplans :) // New episodes on the 5th and 20th!
 
 # Listen On
 - [Apple Podcasts](https://podcasts.apple.com/ca/podcast/lettered-plans/id1489779945)
