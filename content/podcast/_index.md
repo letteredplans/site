@@ -21,9 +21,9 @@ Sharing my life through my planners (and sometimes mishaps too!). I can be found
 - [Spotify](https://open.spotify.com/show/3DA1aUbVQPDDJPxVJmdcOe)
 - [Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9hcGkucG9kY2FjaGUubmV0L3Nob3dzLzc1ZjcxYTI1LTRiMGUtNDE2Yi05MGIzLTMyYmE2ZTFlZDFhOS9mZWVk)
 - [Pocket Casts](https://pca.st/j6ndtkkg)
-- [Radiopublic](https://radiopublic.com/lettered-plans-8jyy3v)
 - [Breaker](https://www.breaker.audio/lettered-plans)
 - [Overcast.fm](https://overcast.fm/itunes1489779945/lettered-plans)
+- [Radiopublic](https://radiopublic.com/lettered-plans-8jyy3v)
 
 # Show Notes
 * Season 1

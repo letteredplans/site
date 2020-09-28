@@ -9,7 +9,8 @@ menu: "main"
 Jump to:
 [About Me](#about-me) --
 [Contact](#contact) --
-[Support](#support)
+[Support](#support) --
+[Site info](#site-info)
 
 # About Me
 
@@ -56,3 +57,11 @@ This will go towards continuing to create videos, upgrading my equipment, etc. T
 
 - http://paypal.me/EarnestMa
 - 1LPCsqtUMQfzbv7zX6zveMACY644PSpr4Q
+
+# Site Info
+
+**Theme**: [Hugo Bear Blog](https://github.com/janraasch/hugo-bearblog/) ʕ•ᴥ•ʔ
+
+**Hosting**: [Github Pages](https://pages.github.com)
+
+*You agree to the [site policy](/site-policy)*
