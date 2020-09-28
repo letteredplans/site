@@ -5,7 +5,7 @@ draft: false
 menu: "main"
 # description: "An optional description for SEO. If not provided, an automatically created summary will be used."
 # tags: [""]
-aliases: ["/docs/shop-codes"]
+aliases: ["/docs/shop-codes", "/docs/shops"]
 ---
 
 Jump to:
