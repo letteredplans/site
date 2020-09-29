@@ -2,10 +2,7 @@
 title: "Videos"
 date: 2020-09-28
 draft: false
-# Set menu to "main" to add this page to
-# the main menu on top of the page
 menu: "main"
-# description is optional
 # description: "An optional description for SEO. If not provided, an automatically created summary will be used."
 # tags are optional
 # tags: [""]
@@ -13,6 +10,7 @@ layout: single
 ---
 
 # Videos from...
+- [Vlogs](/videos/vlogs)
 - [2020](/videos/2020)
 - [2019](/videos/2019)
 - [2018](/videos/2018)
