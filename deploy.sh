@@ -16,11 +16,11 @@ git config --global user.name "eeeee-bot"
 datev="$(date +'%Y-%m-%d %H:%M:%S %:::z')"
 
 rm -rf deployment
-git clone -b main --depth 1 https://github.com/earnestma/earnestma.github.io.git deployment
+git clone -b main --depth 1 https://github.com/letteredplans/letteredplans.github.io.git deployment
 rsync -av --delete --exclude ".git" deploy/ deployment
 
 cd deployment
-git remote set-url origin "https://eeeee-bot:$GH@github.com/earnestma/earnestma.github.io.git"
+git remote set-url origin "https://eeeee-bot:$GH@github.com/letteredplans/letteredplans.github.io.git"
 git add -A
 # we need the || true, as sometimes you do not have any content changes
 # and git wouldn't commit and you don't want to break the CI because of that
