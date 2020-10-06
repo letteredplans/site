@@ -1,0 +1,21 @@
+---
+os: linux
+dist: focal
+
+install:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_extended_0.75.1_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+
+script:
+  - hugo --gc --minify --destination="deploy"
+
+deploy:
+  - provider: script
+    script: bash deploy.sh
+    cleanup: false
+    skip_cleanup: true
+    on:
+      branch: main
+
+#after_success:
+#  - ./after_success.sh
