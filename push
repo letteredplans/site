@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+git push origin main
+
+bash manual-deploy.sh
