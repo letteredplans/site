@@ -4,6 +4,7 @@ dist: focal
 
 install:
   - HVER=$(curl https://raw.githubusercontent.com/earnestma-forks/hugoversion/main/current.txt)
+  - HURL="https://github.com/gohugoio/releases/download/v${HVER}/hugo_extended_${HVER}_Linux-64bit.deb"
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v$HVER/hugo_extended_$HVER_Linux-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
 
