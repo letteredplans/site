@@ -3,7 +3,8 @@ os: linux
 dist: focal
 
 install:
-  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_extended_0.75.1_Linux-64bit.deb
+  - HVER=$(curl https://raw.githubusercontent.com/earnestma-forks/hugoversion/main/current.txt)
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v$HVER/hugo_extended_$HVER_Linux-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
 
 script:
@@ -16,6 +17,3 @@ deploy:
     skip_cleanup: true
     on:
       branch: main
-
-#after_success:
-#  - ./after_success.sh
