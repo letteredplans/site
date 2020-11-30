@@ -32,4 +32,4 @@ If you want to help maintain the list, add your own shop, or add some shops, ple
 
 `My order from SimplyAMess sticker shop!`
 
-{{< instagram CDAHpefpLVs hidecaption >}}
+https://www.instagram.com/p/CDAHpefpLVs/

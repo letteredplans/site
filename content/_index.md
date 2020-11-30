@@ -19,7 +19,8 @@ If you like what I do, consider [supporting me](/about#support) via Patreon or P
 
 {{< youtube zg-etblcC1Q >}}
 
-{{< instagram B8uvOZ5pyZ_ hidecaption >}}
+https://www.instagram.com/p/B8uvOZ5pyZ_/
+<!--IG Shortcode doesn't seem to work anymore without giving an error, and IG's own embed code is hideous. links for now will do :(-->
 
 ### [Blog Posts](/blog)
 
