@@ -8,7 +8,6 @@ on:
   push:
     branches:
       - main
-      - earne/migrate-to-gh-actions
 #  For automated publishing ("future/ scheduled posts" using cron):
 #  schedule:
 #    - cron: ''
