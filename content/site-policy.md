@@ -7,7 +7,7 @@ draft: false
 »Site Policy«
 
 ```
-Last updated: 2020-09-28
+Last updated: 2020-12-21
 ```
 
 Jump to:
@@ -24,7 +24,7 @@ Jump to:
 
 ## 1. Terms
 
-By accessing this Website, accessible from https://lp.earnestma.xyz/ and https://letteredplans.github.io, you
+By accessing this Website, accessible from https://letteredplans.earne.link, you
 are agreeing to be bound by the site policy and agree that you are responsible for personal agreement with any
 applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site.
 The materials contained in this Website are protected by copyright law.​
@@ -45,7 +45,7 @@ you should destroy any downloaded materials in your possession whether it is pri
 ## 2. Copyright
 
 All media on this website (including but not limited to audios, photos, text, and videos) belong to and are copyrighted
-to Lettered Plans, **unless specified otherwise**. This website is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/). You should email and ask for permission before copying - [letteredplans@gmail.com](mailto:letteredplans@gmail.com). Unauthorized usage of any media without linking back to this site or crediting it is strictly prohibited under copyright law.
+to Lettered Plans, **unless specified otherwise**. This website is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/). You may also email and ask for permission before copying - [letteredplans@gmail.com](mailto:letteredplans@gmail.com). Unauthorized usage of any media without linking back to this site or crediting it is strictly prohibited under copyright law.
 
 ## 3. Disclaimer
 

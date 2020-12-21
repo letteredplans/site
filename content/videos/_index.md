@@ -2,7 +2,7 @@
 title: "Videos"
 date: 2020-09-28
 draft: false
-menu: "main"
+#menu: "main"
 # description: "An optional description for SEO. If not provided, an automatically created summary will be used."
 # tags are optional
 # tags: [""]
@@ -20,9 +20,3 @@ Most videos are posted on [YouTube](https://youtube.com/letteredplans).
 Browse videos by category through **[playlists](https://www.youtube.com/c/letteredplans/playlists)**.
 
 *Some are also on [LBRY](https://lbry.tv/@letteredplans), and [IGTV](https://www.instagram.com/letteredplans/channel/).*
-
-# Help with captions and subtitles
-
-YouTube is sadly taking out their community captioning feature. However, I will still try to work on English subtitles through [Amara](https://amara.org/).
-
-If you want to help translate that into other languages, please join the [Discord server](https://discord.gg/EduyGGv), there's more info and help available there.

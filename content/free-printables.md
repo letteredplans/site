@@ -22,7 +22,8 @@ Basically:
 - No commericial use.
 - No changes are permitted.
 
-If you have any further questions, [please contact me](/about). If the download links are broken, please also contact me.
+If you have any further questions, [please contact me](/about). If the download links are broken, please also let me know.
 
 # Update
+
 I'm revamping the printables I've already made, and will be uploading them as soon as they're done. Check back soon!

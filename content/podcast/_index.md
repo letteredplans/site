@@ -2,10 +2,12 @@
 title: "Podcast"
 date: 2020-09-28
 draft: false
-menu: "main"
+#menu: "main"
 # description: "An optional description for SEO. If not provided, an automatically created summary will be used."
 layout: single
 ---
+
+# This page and its subpages have been archived.
 
 ---
 
@@ -29,4 +31,3 @@ Sharing my life through my planners (and sometimes mishaps too!). I can be found
 * Season 1
   - [Welcome! - S1 Ep. 1](/podcast/s1/episode1)
   - [Updates to my planner system - S1 Ep. 2](/podcast/s1/episode2)
-  - [April 20, 2020: Catchup - S1 Ep. 3](/podcast/s1/episode3)

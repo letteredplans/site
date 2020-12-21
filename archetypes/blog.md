@@ -2,10 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-#
-# description is optional
-#
-# description: "An optional description for SEO. If not provided, an automatically created summary will be used."
+description: "An optional description for SEO. If not provided, an automatically created summary will be used."
 slug: "{{.Name}}"
 tags: [""]
 ---
