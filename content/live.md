@@ -8,7 +8,11 @@ menu: "main"
 
 # Live Streams
 
-For a more reliable connection with **less delay**, paste this into a dedicated media player like [MPV](https://mpv.io/) or [VLC](https://www.videolan.org/): `rtmp://live.earne.link/live/lp`
+{{< rawhtml >}}
+<iframe src="https://gist.github.com/earnestma/2e283423c51457f3b77eecab2e28ff46.pibb" width="500" height="115"></iframe>
+{{< /rawhtml>}}
+
+For a more reliable connection with **less delay**, paste this into a dedicated media player like [MPV](https://mpv.io/) or [VLC](https://www.videolan.org/): **`rtmp://live.earne.link/live/lp`**
 
 {{< rawhtml >}}
 <div>
@@ -36,9 +40,9 @@ video {
 
 <iframe src="https://kiwiirc.com/client/irc.rizon.net/?&theme=mini#letteredplans" style="border:0; width:100%; height:450px;"></iframe>
 
-[Click here](https://kiwiirc.com/client/irc.rizon.net/?&theme=mini#letteredplans)
- to access a larger version of the chat (uses KiwiIRC).
 
-Connection details:
+<a href="https://kiwiirc.com/client/irc.rizon.net/?&theme=mini#letteredplans" target="_blank">Click here</a>
+to open a full tab for chat (KiwiIRC).
 
-`irc.rizon.net` 6667 or 6697 (SSL/TLS) - #letteredplans
+Connection details: `irc.rizon.net` 6667 or 6697 (SSL/TLS) - #letteredplans
+
