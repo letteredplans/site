@@ -14,6 +14,8 @@ menu: "main"
 
 For a more reliable connection with **less delay**, paste this into a dedicated media player like [MPV](https://mpv.io/) or [VLC](https://www.videolan.org/): **`rtmp://live.earne.link/live/lp`**
 
+## [Full window](/live-fullscreen)
+
 {{< rawhtml >}}
 <div>
     <video id="videoPlayer" poster="/logo/share.png" controls></video>
@@ -46,3 +48,4 @@ to open a full tab for chat (KiwiIRC).
 
 Connection details: `irc.rizon.net` 6667 or 6697 (SSL/TLS) - #letteredplans
 
+## Chat Guidelines
