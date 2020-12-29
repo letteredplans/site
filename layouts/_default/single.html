@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ if eq .Type "blog" }}{{ if not .Params.menu }}
+<h1>{{ .Title }}</h1>
+<p>
+    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+      {{ .Date.Format "02 Jan, 2006" }}
+    </time>
+    {{ if .Lastmod }}
+        {{ if not (eq .Lastmod .Date )}}
+        <i>
+            (<b>Updated:</b> {{ dateFormat "2006-01-02" .Lastmod.Local }})
+        </i>
+        {{ end }}
+    {{ end }}
+</p>
+{{ end }}{{ end }}
+<content>
+  {{ .Content }}
+</content>
+<p>
+  {{ range (.GetTerms "tags") }}
+  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+  {{ end }}
+</p>
+{{ end }}
