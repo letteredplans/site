@@ -2,7 +2,7 @@
 baseURL = "https://letteredplans.earne.link"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+theme = 'hugo-bearblog-fork'
 
 # Google Analytics - let's not. see partials/custom_body.html
 # googleAnalytics = "UA-111111111-1"
