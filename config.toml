@@ -4,8 +4,8 @@ baseURL = "https://letteredplans.earne.link"
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
 
-# Google Analytics
-googleAnalytics = "UA-177859749-1"
+# Google Analytics - let's not. see partials/custom_body.html
+# googleAnalytics = "UA-111111111-1"
 
 # Basic metadata configuration for your blog.
 title = "Lettered Plans"
