@@ -7,7 +7,7 @@ draft: false
 »Site Policy«
 
 ```
-Last updated: 2020-12-21
+Last updated: 2020-12-31
 ```
 
 Jump to:
@@ -27,14 +27,13 @@ Jump to:
 By accessing this Website, accessible from https://letteredplans.earne.link, you
 are agreeing to be bound by the site policy and agree that you are responsible for personal agreement with any
 applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site.
-The materials contained in this Website are protected by copyright law.​
+The materials contained in this Website are protected by copyright law.
 
 Permission is granted to temporarily download one copy of the materials on Lettered Plans's Website for personal,
 non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this
 license you may not:
 
-- modify or copy the materials;
-- use the materials for any commercial purpose or for any public display;
+- use the materials for any commercial purpose or for any unauthorized public display;
 - attempt to reverse engineer any software contained on Lettered Plans's Website;
 - remove any copyright or other proprietary notations from the materials; or
 - transfer the materials to another person or "mirror" the materials on any other server.
@@ -45,7 +44,7 @@ you should destroy any downloaded materials in your possession whether it is pri
 ## 2. Copyright
 
 All media on this website (including but not limited to audios, photos, text, and videos) belong to and are copyrighted
-to Lettered Plans, **unless specified otherwise**. This website is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/). You may also email and ask for permission before copying - [letteredplans@gmail.com](mailto:letteredplans@gmail.com). Unauthorized usage of any media without linking back to this site or crediting it is strictly prohibited under copyright law.
+to Lettered Plans, **unless specified otherwise**. This website is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/). If in doubt, you may always email and ask for permission before copying - [letteredplans@gmail.com](mailto:letteredplans@gmail.com). Unauthorized usage of any media without linking back to this site or crediting it is strictly prohibited under copyright law.
 
 ## 3. Disclaimer
 
@@ -89,15 +88,26 @@ you are agreeing to be bound by the current version of the Site Policy.
 
 ## 9. Your Privacy
 
-Lettered Plans does not share any personal information about how you use the site with third parties, and
-does not store any information about how you use this website.
+Lettered Plans does not share any personal information about how you use the site with third parties.
 
-Cookies may be stored to analyze and optimize your site experience. You can turn off the use of cookies at any
-time by modifying your browser settings.
+We use our own instance of [GoatCounter](https://www.goatcounter.com/) to collect a minimal amount of analytics, tracking statistics regarding our audience and website traffic. No personally identifiable information is ever collected or transferred.
 
-This website uses Google Analytics to track statistics regarding our audience and website traffic. No personally
-identifiable information is transferred from our website to Google Analytics. For more information, please
-click [here](https://www.google.com/intl/en/policies/privacy/).
+*The following is adapted from [GoatCounter's Privacy Policy](https://www.goatcounter.com/privacy).*
+
+The following information is collected:
+
+- URL of the visited page.
+- Referer header.
+- User-Agent header.
+- Screen size.
+- Country name based on IP address.
+- A hash of the IP address, User-Agent, and random number.
+
+No personal information (such as IP address) is collected; a hash of the IP address, User-Agent, and a random number ("salt") is kept in the process memory for 8 hours at the most to identify a browsing session.
+
+The exception to this are requests which are deemed to be coming from a bot, in which case the IP address will be stored temporarily for the purpose of blocking botnets, hosting providers, and other types of abuse.
+
+There is no information stored in the browser with e.g. cookies.
 
 ## 10. Governing Law
 
