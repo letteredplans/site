@@ -10,6 +10,8 @@ Thank you for stopping by!
 
 ### Social Media
 
+[Live streams](/live)
+
 - **[Youtube](https://youtube.com/c/letteredplans)**
 - **[Instagram](https://www.instagram.com/letteredplans/)**
 
