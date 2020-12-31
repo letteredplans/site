@@ -8,44 +8,40 @@ menu: "main"
 
 # Live Streams
 
-{{< rawhtml >}}
-<iframe src="https://gist.github.com/earnestma/2e283423c51457f3b77eecab2e28ff46.pibb" width="500" height="115"></iframe>
-{{< /rawhtml>}}
+Live streams are usually announced ahead of time on various platforms. You can also check below:
 
-For a more reliable connection with **less delay**, paste this into a dedicated media player like [MPV](https://mpv.io/) or [VLC](https://www.videolan.org/): **`rtmp://live.earne.link/live/lp`**
+<iframe
+	src="https://gist.github.com/earnestma/2e283423c51457f3b77eecab2e28ff46.pibb"
+	title="Schedule"
+	height="200px" width=100%>
+</iframe>
 
-## [Full window](/live-fullscreen)
+# <a href="https://live.earne.link/" target="_blank">Open live stream</a>
 
-{{< rawhtml >}}
-<div>
-    <video id="videoPlayer" poster="/logo/share.png" controls></video>
-</div>
-<script src="http://cdn.dashjs.org/v3.1.1/dash.all.min.js"></script>
-<script>
-(function(){
-    var url = "https://live.earne.link/dash/lp.mpd";
-    var player = dashjs.MediaPlayer().create();
-    player.initialize(document.querySelector("#videoPlayer"), url, true);
+## Preview
 
-})();
-</script>
+<iframe
+  src="https://live.earne.link/embed/video"
+  title="LP Livestreams on earne's Owncast"
+  height="500px" width=100%
+  referrerpolicy="origin"
+  scrolling="no"
+  allowfullscreen="yes">
+</iframe>
 
-<style>
-video {
-            width: 700px;
-            height: 500px;
-        }
-</style>
-{{< /rawhtml>}}
+## Chat
 
-## Live Chat
-
-<iframe src="https://kiwiirc.com/client/irc.rizon.net/?&theme=mini#letteredplans" style="border:0; width:100%; height:450px;"></iframe>
-
-
-<a href="https://kiwiirc.com/client/irc.rizon.net/?&theme=mini#letteredplans" target="_blank">Click here</a>
-to open a full tab for chat (KiwiIRC).
-
-Connection details: `irc.rizon.net` 6667 or 6697 (SSL/TLS) - #letteredplans
+<iframe
+  src="https://live.earne.link/embed/chat"
+  title="LP Livestreams on earne's Owncast"
+  height="410px" width=100%
+  referrerpolicy="origin"
+  scrolling="no">
+</iframe>
 
 ## Chat Guidelines
+
+1. Be kind!
+2. Chatting in English is preferred.
+3. Avoid self-promotion.
+4. No spam/ harassment/ doxing, etc.
