@@ -1,4 +1,4 @@
-name: Continuous Main Deployment
+name: CI / CD
 
 defaults:
   run:
@@ -6,51 +6,81 @@ defaults:
 
 on:
   push:
-    branches:
-      - main
+  pull_request:
 #  For automated publishing ("future/ scheduled posts" using cron):
-#  schedule:
-#    - cron: ''
+# schedule:
+#   - cron: ''
 
 env:
-  HUGO_VER: 0.80.0 # Always use the most recent version
-  HUGO_STAB: 0.79.1 # Testing/ compatiblity used on PRs?
   HUGO_ENV: production
   GHPG_DEPLOY_KEY: ${{ secrets.GHPAGESDEPLOYKEY }}
 
 jobs:
-  deployment_latest:
+  builds:
     runs-on: ubuntu-latest
-    name: Main Deployment (Latest)
-    if: "!contains(github.event.head_commit.message,'[skip-ci]')"
+    name: Builds Matrix
+    if: |
+      !contains(github.event.head_commit.message,'[skip ci]') &&
+      (github.event_name == 'push' || github.event.pull_request.head.repo.full_name != 'letteredplans/letteredplans-site')
+  # Skip internal pull requests, use from push event.
+  # Skip messages with [skip ci] in title of head commit message
+    strategy:
+      matrix:
+        hugo_ver: ['0.79.1', 'latest'] # use latest and test a slightly older version without known issues
     steps:
-      - name: Checkout Site Repo
-        uses: actions/checkout@v2
-        with:
-          submodules: recursive
-      - name: Setup (Latest)
-        run: |
-          wget -O /tmp/hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VER}/hugo_extended_${HUGO_VER}_Linux-64bit.deb"
-          sudo dpkg -i /tmp/hugo.deb
-          git config --global user.email "me-ghbot@earne.link"
-          git config --global user.name "eeeee-bot"
-      - name: Build
-        run: |
-              hugo --gc --minify --destination="build_s"
-      - name: Deploy to GH Pages
-        run: |
-          datev="$(date +'%Y-%m-%d %H:%M:%S %:::z')"
-          git clone -b main --depth 1 https://github.com/letteredplans/letteredplans.github.io.git deploy_ghp
-          rsync -av --delete --exclude ".git" build_s/ deploy_ghp
-          cd deploy_ghp
-          git remote set-url origin https://eeeee-bot:$GHPG_DEPLOY_KEY@github.com/letteredplans/letteredplans.github.io.git
-          git add -A
-          git commit --amend \
-            -m "$datev deploy latest" \
-            -m "" \
-            -m "ID: $GITHUB_RUN_NUMBER using $GITHUB_WORKFLOW" \
-            -m "From commit: $GITHUB_SHA w $GITHUB_REF" \
-            -m "B $GITHUB_ACTOR" \
-            -m "eeeee-bot" \
-            || true
-          git push --force-with-lease origin main
+    - name: Clone
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+
+    - name: Setup Hugo ${{ matrix.hugo_ver }}
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: ${{ matrix.hugo_ver }}
+        extended: true
+
+    - name: Build Site
+      run: |
+        hugo version
+        hugo --minify --destination="build-${{ matrix.hugo_ver }}"
+
+    - name: Possibly Upload Artifacts
+      if: "matrix.hugo_ver == 'latest'" # latest only
+      uses: actions/upload-artifact@v2
+      with:
+        path: build-latest
+        retention-days: 2
+
+  deploy:
+      runs-on: ubuntu-latest
+      name: Deploy to GitHub Pages
+      needs: [builds]
+      if: "contains('
+            refs/heads/main
+            ', github.ref)"
+      steps:
+        - name: Get artifact
+          uses: actions/download-artifact@v2
+          with:
+            path: build-latest
+
+        - name: Setup + Deploy to GitHub Pages
+          run: |
+            git clone -b main --depth 1 https://github.com/letteredplans/letteredplans.github.io.git ghp
+            rsync -av --delete --exclude ".git" build-latest/artifact/ ghp
+            cd ghp
+            git config user.name "eeeee-bot"
+            git config user.email 72349393+eeeee-bot@users.noreply.github.com
+            git remote set-url origin \
+              https://eeeee-bot:$GHPG_DEPLOY_KEY@github.com/letteredplans/letteredplans.github.io.git
+            git add -A
+            datev="$(date +'%Y-%m-%d %H:%M:%S %:::z')"
+            git commit --amend \
+              -m "$datev deploy latest" \
+              -m "" \
+              -m "ID: $GITHUB_RUN_NUMBER using $GITHUB_WORKFLOW" \
+              -m "From commit: $GITHUB_SHA w $GITHUB_REF" \
+              -m "B $GITHUB_ACTOR" \
+              -m "eeeee-bot" \
+              || true
+            git push --force-with-lease origin main
