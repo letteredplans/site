@@ -29,8 +29,6 @@ Live streams are usually announced ahead of time on various platforms. You can a
   allowfullscreen="yes">
 </iframe>
 
-## Chat
-
 <iframe
   src="https://live.earne.link/embed/chat"
   title="LP Livestreams on earne's Owncast"
