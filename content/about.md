@@ -32,21 +32,3 @@ Please [follow me](/#social-media) on social media, and I hope to see you around
 Emails are always welcome: [letteredplans AT gmail DOT com](mailto:letteredplans@gmail.com).
 
 I'm also reachable on Discord and IRC (`earne` on irc.rizon.net).
-
-# Support
-
-### Patreon
-
-If you like what I do, consider supporting me through [Patreon](https://www.patreon.com/letteredplans).
-All the benefits are listed there, some highlights include:
-
-- Discord server with private channels
-- Priority on video suggestions
-- Early access to Youtube videos
-- Close friends on Instagram stories
-- Behind the scenes/ random vlogs
-- Name recognition in video credits
-
-This will go towards continuing to create videos, upgrading my equipment, etc. Thank you!
-
-I also have Paypal: http://paypal.me/EarnestMa
